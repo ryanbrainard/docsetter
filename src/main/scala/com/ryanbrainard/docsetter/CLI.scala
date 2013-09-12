@@ -44,7 +44,6 @@ object CLI {
     val contentsDir = new File(baseDir, "/Contents")
     val resourcesDir = new File(contentsDir, "/Resources")
     resourcesDir.mkdirs()
-//    Seq(baseDir, contentsDir, resourcesDir).foreach(_.mkdirs)
 
     val infoPlistTemplate = getClass.getClassLoader.getResource("Info-template.plist")
     val infoPListReplacements = Map("{{NAME}}" -> config.name(), "{{INDEX_PAGE_PATH}}" -> generator.indexPagePath(config.url()))
