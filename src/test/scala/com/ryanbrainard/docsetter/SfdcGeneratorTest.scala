@@ -8,7 +8,7 @@ class SfdcGeneratorTest extends FunSuite {
 
   test("index") {
     val gen = new SfdcGenerator() {
-      override def tocUrl(url: URL) = this.getClass.getClassLoader.getResource("apex-toc.xml").toString
+      override def tocUrl(url: URL) = this.getClass.getClassLoader.getResource("sample-toc.xml").toString
     }
 
     val index = gen.index(new URL("http://dummy"))
