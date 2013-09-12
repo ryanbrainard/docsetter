@@ -16,12 +16,26 @@ class SfdcGenerator extends Generator {
 
   def index(url: URL) = {
     for {
-      entry <- XML.load(tocUrl(url)) \\ "TocEntry" // TODO: change to streaming XML
+      entry <- XML.load(tocUrl(url)) \\ "TocEntry"
       title <- entry.attribute("Title")
       link  <- entry.attribute("Link")
+      decs  <- entry.attribute("DescendantCount")
     } yield {
-      // TODO: handle type
-      IndexEntry(title.head.text, EntryType.File, url + link.head.text)
+      val entryType = if (decs.text.toInt > 0) {
+        EntryType.Section
+      } else {
+        title.text.trim match {
+          case t if t.matches( """\w+:\w+""") => EntryType.Element
+          case t if t.endsWith(" Methods") => EntryType.Class
+          case t if t.endsWith(" Class") => EntryType.Class
+          case t if t.endsWith(" Interface") => EntryType.Interface
+          case t if t.endsWith(" Enums") => EntryType.Enum
+          case t if t.contains("Sample") => EntryType.Sample
+          case _ => EntryType.Guide
+        }
+      }
+
+      IndexEntry(title.text, entryType, url + link.text)
     }
   }
 
