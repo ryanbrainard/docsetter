@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTOC version="1.0" DescendantCount="485">
+    <atict:info xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/info" color="" print="" ref="0" tracking="off" xtrc="atict:info:1" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Leah Cutter" user="lcutter" xtrc="atict:user:1" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Caroline Roth" user="croth" xtrc="atict:user:2" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Chris McGuire" user="cmcguire" xtrc="atict:user:3" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Dean Atchison" user="datchison" xtrc="atict:user:4" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Mysti Berry" user="mberry" xtrc="atict:user:5" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Katia Hage" user="k.n.hage" xtrc="atict:user:6" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Mark Leonard" user="mleonard" xtrc="atict:user:7" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Steven Anderson" user="sanderson" xtrc="atict:user:8" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Andrea Leszek" user="ALeszek" xtrc="atict:user:9" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <atict:user xmlns:atict="http://www.arbortext.com/namespace/atict" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="+ topic/foreign atict-d/user" fullname="Carol Trese" user="ctrese" xtrc="atict:user:10" xtrf="C:\dev\doc\184\freeze\core\en\xmlsource\dev_guides\apex\salesforce_apex_language_reference.ditamap" DescendantCount="0" />
+    <TocEntry Title="Introducing Apex" Link="/Content/apex_intro.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="22">
+        <TocEntry Title="What is Apex?" Link="/Content/apex_intro_what_is_apex.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="How Does Apex Work?" Link="/Content/apex_intro_how_does_apex_work.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="What is the Apex Development Process?" Link="/Content/apex_intro_development_process.htm" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="Using a Developer or Sandbox Organization" Link="/Content/apex_intro_get_dev_account.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Learning Apex" Link="/Content/apex_intro_learning_apex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Writing Apex" Link="/Content/apex_intro_writing_apex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Writing Tests" Link="/Content/apex_intro_writing_tests.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Deploying Apex to a Sandbox Organization" Link="/Content/apex_intro_deploying_to_sandbox.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Deploying Apex to a Salesforce Production Organization" Link="/Content/apex_intro_deploying_to_production.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Adding Apex Code to a Force.com AppExchange App" Link="/Content/apex_intro_AppExchange.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="When Should I Use Apex?" Link="/Content/apex_intro_when_use_apex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="What are the Limitations of Apex?" Link="/Content/apex_intro_apex_limitation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="What's New?" Link="/Content/apex_intro_whats_new.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Apex Quick Start" Link="/Content/apex_qs.htm" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Documentation Typographical Conventions" Link="/Content/apex_qs_conventions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding Apex Core Concepts" Link="/Content/apex_qs_core_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Writing Your First Apex Class and Trigger" Link="/Content/apex_qs_HelloWorld.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Creating a Custom Object" Link="/Content/apex_qs_customobject.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Adding an Apex Class" Link="/Content/apex_qs_class.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Adding an Apex Trigger" Link="/Content/apex_qs_trigger.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Adding a Test Class" Link="/Content/apex_qs_test.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Deploying Components to Production" Link="/Content/apex_qs_deploy.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Language Constructs" Link="/Content/langCon_apex.htm" ComputedFirstTopic="false" DescendantCount="78">
+        <TocEntry Title="Data Types" Link="/Content/langCon_apex_data_types.htm" ComputedFirstTopic="false" DescendantCount="20">
+            <TocEntry Title="Primitive Data Types" Link="/Content/langCon_apex_primitives.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="sObject Types" Link="/Content/langCon_apex_SObjects.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Accessing sObject Fields" Link="/Content/langCon_apex_SObjects_accessing_fields.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Accessing sObject Fields Through Relationships" Link="/Content/langCon_apex_SObjects_field_relationships.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Validating sObjects and Fields " Link="/Content/langCon_apex_SObjects_field_validation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Collections" Link="/Content/langCon_apex_collections.htm" ComputedFirstTopic="false" DescendantCount="12">
+                <TocEntry Title="Lists" Link="/Content/langCon_apex_collections_lists.htm" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="Using Array Notation for One-Dimensional&#xA;Lists of Primitives or sObjects" Link="/Content/langCon_apex_collections_lists.htm#array_methods" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Lists of sObjects" Link="/Content/langCon_apex_collections_lists.htm#object_arrays" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="List Sorting" Link="/Content/langCon_apex_collections_lists.htm#list_sobject_sorting" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Sets" Link="/Content/langCon_apex_collections_sets.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Maps" Link="/Content/langCon_apex_collections_maps.htm" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Maps from SObject Arrays" Link="/Content/langCon_apex_collections_maps_from_SObjects.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Parameterized Typing" Link="/Content/langCon_apex_parameterized_types.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Custom Types in Map Keys and Sets" Link="/Content/langCon_apex_collections_maps_keys_userdefined.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Iterating Collections" Link="/Content/langCon_apex_collections_iterating.htm" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="Adding Elements During Iteration" Link="/Content/langCon_apex_collections_iterating.htm#add_elements_during_iteration" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Removing Elements During Iteration" Link="/Content/langCon_apex_collections_iterating.htm#remove_elements_during_iteration" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Enums" Link="/Content/langCon_apex_enums.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding Rules of Conversion" Link="/Content/langCon_apex_rules_of_conversion.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Variables" Link="/Content/langCon_apex_variables.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Case Sensitivity" Link="/Content/langCon_apex_variables.htm#case_sensitivity" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Constants" Link="/Content/langCon_apex_variables.htm#constants" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Expressions" Link="/Content/langCon_apex_expressions.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Understanding Expressions" Link="/Content/langCon_apex_expressions_understanding.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding Expression Operators" Link="/Content/langCon_apex_expressions_operators_understanding.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding Operator Precedence" Link="/Content/langCon_apex_expressions_operators_precedence.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Extending sObject and List Expressions" Link="/Content/langCon_apex_expressions_extending_SObjects.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Comments" Link="/Content/langCon_apex_expressions_comments.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Assignment Statements" Link="/Content/langCon_apex_assignment_statements.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Conditional (If-Else) Statements" Link="/Content/langCon_apex_if_else.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Loops" Link="/Content/langCon_apex_loops.htm" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Do-While Loops" Link="/Content/langCon_apex_loops_do_while.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="While Loops" Link="/Content/langCon_apex_loops_while.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="For Loops" Link="/Content/langCon_apex_loops_for.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Traditional For Loops" Link="/Content/langCon_apex_loops_for_traditional.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="List or Set Iteration For Loops" Link="/Content/langCon_apex_loops_for_lists.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="SOQL For Loops" Link="/Content/langCon_apex_loops_for_SOQL.htm" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="SOQL For Loops Versus Standard SOQL Queries" Link="/Content/langCon_apex_loops_for_SOQL.htm#soql_for_vs_soql" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="SOQL For Loop Formats" Link="/Content/langCon_apex_loops_for_SOQL.htm#soql_for_loop_types" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Exception Statements" Link="/Content/langCon_apex_exception_statements.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Throw Statements" Link="/Content/langCon_apex_exception_statements.htm#throw_statements" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Try-Catch-Finally Statements" Link="/Content/langCon_apex_exception_statements.htm#try_catch_finally_statements" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="SOQL and SOSL Queries" Link="/Content/langCon_apex_SOQL.htm" ComputedFirstTopic="false" DescendantCount="9">
+            <TocEntry Title="Working with SOQL and SOSL Query Results" Link="/Content/langCon_apex_SOQL_working_with_results.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Working with SOQL Aggregate Functions" Link="/Content/langCon_apex_SOQL_agg_fns.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Working with Very Large SOQL Queries" Link="/Content/langCon_apex_SOQL_VLSQ.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using SOQL Queries That Return One Record" Link="/Content/langCon_apex_SOQL_single_row.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Improving Performance by Not Searching&#xA;on Null Values" Link="/Content/langCon_apex_SOQL_filtering_nulls.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding Foreign Key and Parent-Child&#xA;Relationship SOQL Queries" Link="/Content/langCon_apex_SOQL_foreign_key.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Working with Polymorphic Relationships&#xA;in SOQL Queries" Link="/Content/langCon_apex_SOQL_polymorphic_relationships.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Apex Variables in SOQL and SOSL Queries" Link="/Content/langCon_apex_SOQL_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Querying All Records with a SOQL Statement" Link="/Content/langCon_apex_SOQL_query_all_rows.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Working with Data in Apex" Link="/Content/langCon_apex_dml_section.htm" ComputedFirstTopic="false" DescendantCount="23">
+            <TocEntry Title="DML Statements vs. Database Class Methods" Link="/Content/langCon_apex_dml_database.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="DML Operations As Atomic Transactions" Link="/Content/langCon_apex_dml_transactions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="How DML Works" Link="/Content/langCon_apex_dml_examples.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="DML Operations" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="Inserting and Updating Records" Link="/Content/langCon_apex_dml_examples_insert_update.htm" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Creating Parent and Child Records in a&#xA;Single Statement Using Foreign Keys" Link="/Content/langCon_apex_dml_foreign_keys.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Upserting Records" Link="/Content/langCon_apex_dml_examples_upsert.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Merging Records" Link="/Content/langCon_apex_dml_examples_merge.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Deleting Records" Link="/Content/langCon_apex_dml_examples_delete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restoring Deleted Records" Link="/Content/langCon_apex_dml_examples_undelete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Converting Leads" Link="/Content/langCon_apex_dml_examples_convertlead.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="DML Exceptions and Error Handling" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Exception Handling" Link="/Content/langCon_apex_dml_exception_handling.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database Class Method Result Objects" Link="/Content/langCon_apex_dml_database_result_classes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Returned Database Errors" Link="/Content/langCon_apex_dml_database_error.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="More About DML" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="Setting DML Options" Link="/Content/langCon_apex_dml_database_dmloptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Transaction Control" Link="/Content/langCon_apex_transaction_control.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="sObjects That Cannot Be Used Together&#xA;in DML Operations" Link="/Content/apex_dml_non_mix_sobjects.htm" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Mixed DML Operations in Test Methods" Link="/Content/apex_dml_non_mix_sobjects_test_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="sObjects That Don’t Support DML&#xA;Operations" Link="/Content/apex_dml_non_dml_objects.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bulk DML Exception Handling" Link="/Content/apex_dml_bulk_exceptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Things You Should Know About Data in Apex" Link="/Content/langCon_apex_dml_limitations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Locking Records" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Locking Statements" Link="/Content/langCon_apex_locking_statements.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Locking in a SOQL For Loop" Link="/Content/langCon_apex_locking_soql_for_loop.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Avoiding Deadlocks" Link="/Content/langCon_apex_deadlocks.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Invoking Apex" Link="/Content/apex_invoking.htm" ComputedFirstTopic="false" DescendantCount="20">
+        <TocEntry Title="Triggers" Link="/Content/apex_triggers.htm" ComputedFirstTopic="false" DescendantCount="16">
+            <TocEntry Title="Bulk Triggers" Link="/Content/apex_triggers_bulk.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Trigger Syntax" Link="/Content/apex_triggers_syntax.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Trigger Context Variables" Link="/Content/apex_triggers_context_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Context Variable Considerations" Link="/Content/apex_triggers_context_variables_considerations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Common Bulk Trigger Idioms" Link="/Content/apex_triggers_bulk_idioms.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Using Maps and Sets in Bulk Triggers" Link="/Content/apex_triggers_bulk_idioms.htm#trigger_map_sets" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Correlating Records with Query Results&#xA;in Bulk Triggers" Link="/Content/apex_triggers_bulk_idioms.htm#trigger_bulk_running_queries" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Triggers to Insert or Update Records&#xA;with Unique Fields" Link="/Content/apex_triggers_bulk_idioms.htm#trigger_considerations" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Defining Triggers" Link="/Content/apex_triggers_defining.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Triggers and Merge Statements" Link="/Content/apex_triggers_merge_statements.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Triggers and Recovered Records" Link="/Content/apex_triggers_recovered_records.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Triggers and Order of Execution" Link="/Content/apex_triggers_order_of_execution.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Operations that Don't Invoke Triggers" Link="/Content/apex_triggers_ignoring_operations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Entity and Field Considerations in Triggers" Link="/Content/apex_triggers_fields_not_updated.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Trigger Exceptions" Link="/Content/apex_triggers_exceptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Trigger and Bulk Request Best Practices" Link="/Content/apex_triggers_bestpract.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Apex Scheduler" Link="/Content/apex_scheduler.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Anonymous Blocks" Link="/Content/apex_anonymous_block.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Apex in AJAX" Link="/Content/apex_and_ajax.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Classes, Objects, and Interfaces" Link="/Content/apex_classes.htm" ComputedFirstTopic="false" DescendantCount="51">
+        <TocEntry Title="Understanding Classes" Link="/Content/apex_classes_understanding.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="Defining Apex Classes" Link="/Content/apex_classes_defining.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Extended Class Example" Link="/Content/apex_classes_example.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Declaring Class Variables" Link="/Content/apex_classes_declaring_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Defining Class Methods" Link="/Content/apex_classes_defining_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Constructors" Link="/Content/apex_classes_constructors.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Access Modifiers" Link="/Content/apex_classes_access_modifiers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Static and Instance" Link="/Content/apex_classes_static.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Using Static Methods and Variables" Link="/Content/apex_classes_static.htm#using_static_methods_and_variables" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Instance Methods and Variables" Link="/Content/apex_classes_static.htm#using_instance_methods_and_variables" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Initialization Code" Link="/Content/apex_classes_static.htm#using_initialization_code" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Apex Properties" Link="/Content/apex_classes_properties.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Interfaces and Extending Classes" Link="/Content/apex_classes_interfaces.htm" ComputedFirstTopic="false" DescendantCount="1">
+            <TocEntry Title="Custom Iterators" Link="/Content/apex_classes_iterable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Keywords" Link="/Content/apex_classes_keywords.htm" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Using the final Keyword" Link="/Content/apex_classes_keywords_final.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the instanceof Keyword" Link="/Content/apex_classes_keywords_instanceof.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the super Keyword" Link="/Content/apex_classes_keywords_super.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the this Keyword" Link="/Content/apex_classes_keywords_this.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the transient Keyword" Link="/Content/apex_classes_keywords_transient.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the with sharing or without&#xA;sharing Keywords" Link="/Content/apex_classes_keywords_sharing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Annotations" Link="/Content/apex_classes_annotation.htm" ComputedFirstTopic="false" DescendantCount="13">
+            <TocEntry Title="Deprecated Annotation" Link="/Content/apex_classes_annotation_deprecated.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Future Annotation" Link="/Content/apex_classes_annotation_future.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="IsTest Annotation" Link="/Content/apex_classes_annotation_isTest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="ReadOnly Annotation" Link="/Content/apex_classes_annotation_ReadOnly.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="RemoteAction Annotation" Link="/Content/apex_classes_annotation_RemoteAction.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="TestVisible Annotation" Link="/Content/apex_classes_annotation_testvisible.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apex REST Annotations" Link="/Content/apex_classes_annotations_rest.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="RestResource Annotation" Link="/Content/apex_classes_annotation_rest_resource.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="HttpDelete Annotation" Link="/Content/apex_classes_annotation_http_delete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="HttpGet Annotation" Link="/Content/apex_classes_annotation_http_get.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="HttpPatch Annotation" Link="/Content/apex_classes_annotation_http_patch.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="HttpPost Annotation" Link="/Content/apex_classes_annotation_http_post.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="HttpPut Annotation" Link="/Content/apex_classes_annotation_http_put.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Classes and Casting" Link="/Content/apex_classes_casting.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Classes and Collections" Link="/Content/apex_classes_collections.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Collection Casting" Link="/Content/apex_classes_casting_collections.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Differences Between Apex Classes and Java Classes" Link="/Content/apex_classes_java_diffs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Class Definition Creation" Link="/Content/apex_classes_creating.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Naming Conventions" Link="/Content/apex_classes_naming_conventions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Name Shadowing" Link="/Content/apex_classes_name_shadowing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Class Security" Link="/Content/apex_classes_security.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Enforcing Object and Field Permissions" Link="/Content/apex_classes_perms_enforcing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Namespace Prefix" Link="/Content/apex_classes_namespace_prefix.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Using the System Namespace" Link="/Content/apex_classes_namespaces_and_invoking_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Namespace, Class, and Variable Name Precedence" Link="/Content/apex_classes_namespace_precedence.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Type Resolution and System Namespace for&#xA;Types" Link="/Content/apex_classes_namespace_type_resolution.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Version Settings" Link="/Content/apex_classes_version_settings_intro.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Setting the Salesforce API Version&#xA;for Classes and Triggers" Link="/Content/apex_classes_version_settings_api.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Setting Package Versions for Apex Classes and Triggers" Link="/Content/apex_classes_version_settings_packages.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Testing Apex" Link="/Content/apex_testing.htm" ComputedFirstTopic="false" DescendantCount="11">
+        <TocEntry Title="Understanding Testing in Apex" Link="/Content/apex_testing_intro.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Why Test Apex?" Link="/Content/apex_testing_why.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="What to Test in Apex" Link="/Content/apex_testing_what.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Unit Testing Apex" Link="/Content/apex_testing_unit_tests.htm" ComputedFirstTopic="false" DescendantCount="4">
+            <TocEntry Title="Isolation of Test Data from Organization&#xA;Data in Unit Tests" Link="/Content/apex_testing_data_access.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the runAs Method" Link="/Content/apex_testing_tools_runas.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Limits, startTest, and stopTest" Link="/Content/apex_testing_tools_start_stop_test.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Adding SOSL Queries to Unit Tests" Link="/Content/apex_testing_SOSL.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Running Unit Test Methods" Link="/Content/apex_testing_unit_tests_running.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Testing Best Practices" Link="/Content/apex_testing_best_practices.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Testing Example" Link="/Content/apex_testing_example.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Dynamic Apex" Link="/Content/apex_dynamic.htm" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="Understanding Apex Describe Information" Link="/Content/apex_dynamic_describe_objects_understanding.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Dynamic SOQL" Link="/Content/apex_dynamic_soql.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Dynamic SOSL" Link="/Content/apex_dynamic_sosl.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Dynamic DML" Link="/Content/apex_dynamic_dml.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Batch Apex" Link="/Content/apex_batch.htm" ComputedFirstTopic="false" DescendantCount="5">
+        <TocEntry Title="Using Batch Apex" Link="/Content/apex_batch_interface.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Understanding Apex Managed Sharing" Link="/Content/apex_bulk_sharing.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Understanding Sharing" Link="/Content/apex_bulk_sharing_understanding.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Sharing a Record Using Apex" Link="/Content/apex_bulk_sharing_creating_with_apex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Recalculating Apex Managed Sharing" Link="/Content/apex_bulk_sharing_recalc.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Working with Chatter in Apex" Link="/Content/connectAPI_overview.htm" ComputedFirstTopic="false" DescendantCount="15">
+        <TocEntry Title="Chatter in Apex Quick Start" Link="/Content/apex_connectapi_quickstart.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Prerequisites" Link="/Content/apex_connectapi_quickstart_prerequisites.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Step 1: Get the Chatter Feed and Group Data" Link="/Content/apex_connectapi_quickstartstep1.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Step 2: Display the Feed and Group Data in a Visualforce Component" Link="/Content/apex_connectapi_quickstartstep2.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Step 3: Display the Component in a Visualforce Page" Link="/Content/apex_connectapi_quickstartstep3.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Step 4: Create a Chatter Groups Tab" Link="/Content/apex_connectapi_quickstartstep4.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Using ConnectApi Input and Output Classes" Link="/Content/apex_connectapi_inputs_outputs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Accessing ConnectApi Data in Communities" Link="/Content/apex_connectapi_communities.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Understanding Limits for ConnectApi Classes" Link="/Content/apex_connect_api_limits.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Serializing and Deserializing ConnectApi Obejcts" Link="/Content/apex_connectapi_serialization.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="ConnectApi Versioning and Equality Checking" Link="/Content/apex_connectapi_versioning.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Casting ConnectApi Objects" Link="/Content/apex_connectapi_casting.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using Wildcards" Link="/Content/intro_wildcards.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Testing ConnectApi Classes" Link="/Content/connectAPI_TestingApex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Differences Between ConnectApi Classes and Other Apex Classes" Link="/Content/apex_connectapi_differences.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Debugging Apex" Link="/Content/apex_debugging.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Understanding the Debug Log" Link="/Content/apex_debugging_debug_log.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Working with Logs in the Developer Console" Link="/Content/apex_debugging_system_log_console.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Debugging Apex API Calls" Link="/Content/apex_debugging_API_calls.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Handling Uncaught Exceptions" Link="/Content/apex_uncaught_exceptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Understanding Execution Governors and&#xA;Limits" Link="/Content/apex_gov_limits.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using Governor Limit Email Warnings" Link="/Content/apex_gov_limits_emails.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Developing Apex in Managed Packages" Link="/Content/apex_manpkgs_dev.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Package Versions" Link="/Content/apex_manpkgs_package_versions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Deprecating Apex" Link="/Content/apex_manpkgs_deprecated.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Behavior in Package Versions" Link="/Content/apex_manpkgs_behavior_intro.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Versioning Apex Code Behavior" Link="/Content/apex_manpkgs_behavior.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apex Code Items that Are Not Versioned" Link="/Content/apex_manpkgs_behavior_not_versioned.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Testing Behavior in Package Versions" Link="/Content/apex_manpkgs_behavior_testing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Exposing Apex Methods as SOAP Web Services" Link="/Content/apex_web_services.htm" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="WebService Methods" Link="/Content/apex_web_services_methods.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Exposing Data with WebService Methods" Link="/Content/apex_web_services_methods_exposing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Considerations for&#xA;Using the WebService Keyword" Link="/Content/apex_web_services_methods_considerations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Overloading Web Service Methods" Link="/Content/apex_web_services_methods_overloading.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Exposing Apex Classes as REST Web Services" Link="/Content/apex_rest.htm" ComputedFirstTopic="false" DescendantCount="7">
+        <TocEntry Title="Introduction to Apex REST" Link="/Content/apex_rest_intro.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Apex REST Annotations" Link="/Content/apex_rest_annotations_list.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Apex REST Methods" Link="/Content/apex_rest_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Exposing Data with Apex REST Web Service Methods" Link="/Content/apex_rest_exposing_data.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Apex REST Code Samples" Link="/Content/apex_rest_code_samples.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Apex REST Basic Code Sample" Link="/Content/apex_rest_code_sample_basic.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apex REST Code Sample Using RestRequest" Link="/Content/apex_rest_code_sample_restrequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Invoking Callouts Using Apex" Link="/Content/apex_callouts.htm" ComputedFirstTopic="false" DescendantCount="19">
+        <TocEntry Title="Adding Remote Site Settings" Link="/Content/apex_callouts_remote_site_settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="SOAP Services: Defining a Class from a&#xA;WSDL Document" Link="/Content/apex_callouts_wsdl2apex.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="Invoking an External&#xA;Service" Link="/Content/apex_callouts_wsdl2apex.htm#invoking_callout" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="HTTP Header Support" Link="/Content/apex_callouts_wsdl2apex.htm#http_header_support" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Supported WSDL Features" Link="/Content/apex_callouts_wsdl2apex.htm#supported_wsdls" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding the Generated Code" Link="/Content/apex_callouts_wsdl2apex_gen_code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Testing Web Service Callouts" Link="/Content/apex_callouts_wsdl2apex_testing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Performing DML Operations and Mock Callouts" Link="/Content/apex_callouts_wsdl2apex_testing_dml.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Considerations Using WSDLs" Link="/Content/apex_callouts_wsdl2apex_considerations.htm" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Mapping Headers" Link="/Content/apex_callouts_wsdl2apex_considerations.htm#mapping_headers_title" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Understanding Runtime Events" Link="/Content/apex_callouts_wsdl2apex_considerations.htm#grok_runtime" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Understanding Unsupported Characters in&#xA;Variable Names" Link="/Content/apex_callouts_wsdl2apex_considerations.htm#unsupported_chars_in_vars" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Debugging Classes Generated from WSDL&#xA;Files" Link="/Content/apex_callouts_wsdl2apex_considerations.htm#debugging_wsdl2apex" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Invoking HTTP Callouts" Link="/Content/apex_callouts_http.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using Certificates" Link="/Content/apex_callouts_client_certs.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Generating Certificates" Link="/Content/apex_callouts_client_certs_generate.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Certificates with SOAP Services" Link="/Content/apex_callouts_client_certs_soap.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using Certificates with HTTP Requests" Link="/Content/apex_callouts_client_certs_http.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Callout Limits and Limitations" Link="/Content/apex_callouts_timeouts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Reference" Link="/Content/apex_reference.htm" ComputedFirstTopic="false" DescendantCount="181">
+        <TocEntry Title="DML Operations" Link="/Content/apex_dml_section.htm" ComputedFirstTopic="false" DescendantCount="21">
+            <TocEntry Title="DML Statements" Link="/Content/apex_dml.htm" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="Insert Statement" Link="/Content/apex_dml_insert.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Update Statement" Link="/Content/apex_dml_update.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Upsert Statement" Link="/Content/apex_dml_upsert.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete Statement" Link="/Content/apex_dml_delete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Undelete Statement" Link="/Content/apex_dml_undelete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Merge Statement" Link="/Content/apex_dml_merge.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bulk DML Exception Handling" Link="/Content/apex_dml_bulk_exceptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Database Methods" Link="/Content/apex_methods_system_database_section.htm" ComputedFirstTopic="false" DescendantCount="11">
+                <TocEntry Title="Database Class" Link="/Content/apex_methods_system_database.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.LeadConvert Class" Link="/Content/apex_dml_convertLead.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.LeadConvertResult Class" Link="/Content/apex_class_database_leadconvertresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.SaveResult Class" Link="/Content/apex_methods_system_database_saveresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.UpsertResult Class" Link="/Content/apex_methods_system_database_upsertresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.DeleteResult Class" Link="/Content/apex_methods_system_database_deleteresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.UndeleteResult Class" Link="/Content/apex_methods_system_database_undeleteresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.EmptyRecycleBinResult Class" Link="/Content/apex_methods_system_database_EmptyRecycleBinResult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.Error Class" Link="/Content/apex_methods_system_database_error.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.QueryLocator Class" Link="/Content/apex_methods_system_database_batch.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Database.QueryLocatorIterator Class" Link="/Content/apex_class_database_querylocatoriterator.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Database.DMLOptions Properties" Link="/Content/apex_methods_system_database_dmloptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Apex Standard Classes and Methods" Link="/Content/apex_methods_system.htm" ComputedFirstTopic="false" DescendantCount="48">
+            <TocEntry Title="Apex Primitive Methods" Link="/Content/apex_methods_primitives.htm" ComputedFirstTopic="false" DescendantCount="11">
+                <TocEntry Title="Blob Methods" Link="/Content/apex_methods_system_blob.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Boolean Methods" Link="/Content/apex_methods_system_boolean.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Date Methods" Link="/Content/apex_methods_system_date.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Datetime Methods" Link="/Content/apex_methods_system_datetime.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Decimal Methods" Link="/Content/apex_methods_system_decimal.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Double Methods" Link="/Content/apex_methods_system_double.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ID Methods" Link="/Content/apex_methods_system_id.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Integer Methods" Link="/Content/apex_methods_system_integer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Long Methods" Link="/Content/apex_methods_system_long.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="String Methods" Link="/Content/apex_methods_system_string.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Time Methods" Link="/Content/apex_methods_system_time.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Apex Collection Methods" Link="/Content/apex_methods_collections.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="List Methods" Link="/Content/apex_methods_system_list.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Map Methods" Link="/Content/apex_methods_system_map.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Set Methods" Link="/Content/apex_methods_system_set.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Enum Methods" Link="/Content/apex_methods_system_enum.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apex sObject Methods" Link="/Content/apex_methods_sobject.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="Schema Methods" Link="/Content/apex_methods_system_schema.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="sObject Methods" Link="/Content/apex_methods_system_sobject.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="sObject Describe Result Methods" Link="/Content/apex_methods_system_sobject_describe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Describe Field Result Methods" Link="/Content/apex_methods_system_fields_describe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Schema.FieldSet Methods" Link="/Content/apex_methods_system_fieldsets_describe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Custom Settings Methods" Link="/Content/apex_methods_system_custom_settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Apex System Methods" Link="/Content/apex_methods_system2.htm" ComputedFirstTopic="false" DescendantCount="22">
+                <TocEntry Title="ApexPages Methods" Link="/Content/apex_methods_system_apexpages.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Approval Methods" Link="/Content/apex_methods_system_approval.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="JSON Support" Link="/Content/apex_methods_system_json_overview.htm" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="JSON Methods" Link="/Content/apex_methods_system_json.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="JSONGenerator Methods" Link="/Content/apex_methods_system_jsongenerator.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="JSONParser Methods" Link="/Content/apex_methods_system_jsonparser.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Limits Methods" Link="/Content/apex_methods_system_limits.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Math Methods" Link="/Content/apex_methods_system_math.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="MultiStaticResourceCalloutMock Methods" Link="/Content/apex_methods_system_multistaticresourcecalloutmock.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Apex REST" Link="/Content/apex_methods_system_rest_overview.htm" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="RestContext Methods" Link="/Content/apex_methods_system_restcontext.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="RestRequest Methods" Link="/Content/apex_methods_system_restrequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="RestResponse Methods" Link="/Content/apex_methods_system_restresponse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Search Methods" Link="/Content/apex_methods_system_search.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="StaticResourceCalloutMock Methods" Link="/Content/apex_methods_system_staticresourcecalloutmock.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="System Methods" Link="/Content/apex_methods_system_system.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Test Methods" Link="/Content/apex_methods_system_test.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="TimeZone Methods" Link="/Content/apex_methods_system_timezone.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Type Methods" Link="/Content/apex_methods_system_type.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="URL Methods" Link="/Content/apex_methods_system_url.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="UserInfo Methods" Link="/Content/apex_methods_system_userinfo.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Version Methods" Link="/Content/apex_methods_system_version.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Using Exception Methods" Link="/Content/apex_classes_exception_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Apex Classes" Link="/Content/apex_classes_ref.htm" ComputedFirstTopic="false" DescendantCount="93">
+            <TocEntry Title="Apex Approval Processing Classes" Link="/Content/apex_process.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Apex Approval Processing Example" Link="/Content/apex_process_example.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ProcessRequest Class" Link="/Content/apex_ProcessRequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ProcessResult Class" Link="/Content/apex_ProcessResult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ProcessSubmitRequest Class" Link="/Content/apex_ProcessSubmitRequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ProcessWorkitemRequest Class" Link="/Content/apex_ProcessWorkitemRequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Apex Community (Zone) Classes" Link="/Content/apex_classes_community.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Answers Class" Link="/Content/apex_classes_answers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Ideas Class" Link="/Content/apex_classes_ideas.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Apex Email Classes" Link="/Content/apex_classes_email.htm" ComputedFirstTopic="false" DescendantCount="17">
+                <TocEntry Title="Outbound Email" Link="/Content/apex_classes_email_outbound.htm" ComputedFirstTopic="false" DescendantCount="7">
+                    <TocEntry Title="Base Email Methods" Link="/Content/apex_classes_email_outbound_base.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="SingleEmailMessage Methods" Link="/Content/apex_classes_email_outbound_single.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="MassEmailMessage Methods" Link="/Content/apex_classes_email_outbound_mass.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="EmailFileAttachment Methods" Link="/Content/apex_classes_email_outbound_attachment.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Messaging Methods" Link="/Content/apex_classes_email_outbound_messaging.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Messaging.SendEmailResult Object Methods" Link="/Content/apex_classes_email_outbound_sendemailresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="SendEmailError Object Methods" Link="/Content/apex_classes_email_outbound_sendemailerror.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Inbound Email" Link="/Content/apex_classes_email_inbound.htm" ComputedFirstTopic="false" DescendantCount="8">
+                    <TocEntry Title="What is the Apex Email Service?" Link="/Content/apex_classes_email_inbound_what_is.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Using the InboundEmail&#xA;Object" Link="/Content/apex_classes_email_inbound_using.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEmail Object" Link="/Content/apex_classes_email_inbound_inbound.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEmail.Header Object" Link="/Content/apex_classes_email_inbound_header.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEmail.BinaryAttachment Object" Link="/Content/apex_classes_email_inbound_binary.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEmail.TextAttachment Object" Link="/Content/apex_classes_email_inbound_text.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEmailResult Object" Link="/Content/apex_classes_email_inbound_result.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="InboundEnvelope Object" Link="/Content/apex_classes_email_inbound_envelope.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Apex Support Classes" Link="/Content/apex_classes_support.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="BusinessHours Class" Link="/Content/apex_classes_businesshours.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Cases Class" Link="/Content/apex_class_system_cases.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Chatter in Apex Classes" Link="/Content/apex_classes_connect_api.htm" ComputedFirstTopic="false" DescendantCount="12">
+                <TocEntry Title="ConnectApi.Chatter Class" Link="/Content/connectAPI_Chatter.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.ChatterFavorites Class" Link="/Content/connectAPI_ChatterFavoritesClass.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.ChatterFeeds Class" Link="/Content/connectAPI_ChatterFeedsClass.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.ChatterGroups Class" Link="/Content/connectAPI_ChatterGroupsClass.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.ChatterUsers Class" Link="/Content/connectAPI_ChatterUsersClass.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.Communities Class" Link="/Content/connectAPI_Communities.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.Organization Class" Link="/Content/apex_class_connectapi_organization.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi.Records Class" Link="/Content/connectAPI_records.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi Input Classes" Link="/Content/connectAPI_inputs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi Output Classes" Link="/Content/connectAPI_outputs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi Enums" Link="/Content/connectAPI_enums.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="ConnectApi Exceptions" Link="/Content/connectAPI_exceptions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Exception Class" Link="/Content/apex_classes_exception.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Constructing an Exception" Link="/Content/apex_classes_exception_constructing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Exception Variables" Link="/Content/apex_classes_exception_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Flow.Interview Class" Link="/Content/flow_interview_class.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="HTTP (RESTful) Services Classes" Link="/Content/apex_classes_restful.htm" ComputedFirstTopic="false" DescendantCount="10">
+                <TocEntry Title="HTTP Classes" Link="/Content/apex_classes_restful_http.htm" ComputedFirstTopic="false" DescendantCount="7">
+                    <TocEntry Title="Http Class" Link="/Content/apex_classes_restful_http_http.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="HttpRequest Class" Link="/Content/apex_classes_restful_http_httprequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="HttpResponse Class" Link="/Content/apex_classes_restful_http_httpresponse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Testing HTTP Callouts" Link="/Content/apex_classes_restful_http_testing.htm" ComputedFirstTopic="false" DescendantCount="3">
+                        <TocEntry Title="Testing HTTP Callouts by Implementing&#xA;the HttpCalloutMock Interface" Link="/Content/apex_classes_restful_http_testing_httpcalloutmock.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                        <TocEntry Title="Testing HTTP Callouts Using Static Resources" Link="/Content/apex_classes_restful_http_testing_static.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                        <TocEntry Title="Performing DML Operations and Mock Callouts" Link="/Content/apex_classes_restful_http_testing_dml.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    </TocEntry>
+                </TocEntry>
+                <TocEntry Title="Crypto Class" Link="/Content/apex_classes_restful_crypto.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="EncodingUtil Class" Link="/Content/apex_classes_restful_encodingUtil.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Knowledge Management Publishing Service&#xA;Class" Link="/Content/apex_classes_knowledge_kbManagement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Network Class" Link="/Content/apex_classes_network.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Pattern and Matcher Classes" Link="/Content/apex_classes_pattern_and_matcher.htm" ComputedFirstTopic="false" DescendantCount="8">
+                <TocEntry Title="Using Patterns and Matchers" Link="/Content/apex_classes_pattern_and_matcher_using.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Regions" Link="/Content/apex_classes_pattern_and_matcher_regions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Match Operations" Link="/Content/apex_classes_pattern_and_matcher_matching.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Using Bounds" Link="/Content/apex_classes_pattern_and_matcher_bounds.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Understanding Capturing Groups" Link="/Content/apex_classes_pattern_and_matcher_capturing_groups.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pattern and Matcher Example" Link="/Content/apex_classes_pattern_and_matcher_example.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pattern Methods" Link="/Content/apex_classes_pattern_and_matcher_pattern_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Matcher Methods" Link="/Content/apex_classes_pattern_and_matcher_matcher_methods.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Publisher Action Classes" Link="/Content/apex_quickaction.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="QuickAction Class" Link="/Content/apex_class_system_quickaction.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="QuickAction.QuickActionRequest Class" Link="/Content/apex_class_quickaction_quickactionrequest.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="QuickAction.QuickActionResult Class" Link="/Content/apex_class_quickaction_quickactionresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Site Class" Link="/Content/apex_classes_sites.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Cookie Class" Link="/Content/apex_classes_sites_cookie.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Visualforce Classes" Link="/Content/apex_pages.htm" ComputedFirstTopic="false" DescendantCount="10">
+                <TocEntry Title="Action Class" Link="/Content/apex_pages_action.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Dynamic Component Methods and Properties" Link="/Content/apex_pages_dynamic_components.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="IdeaStandardController Class" Link="/Content/apex_pages_ideastandardcontroller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="IdeaStandardSetController Class" Link="/Content/apex_pages_ideastandardsetcontroller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="KnowledgeArticleVersionStandardController&#xA;Class" Link="/Content/apex_pages_knowledgearticleversionstandardcontroller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Message Class" Link="/Content/apex_pages_message.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="PageReference Class" Link="/Content/apex_pages_pagereference.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="SelectOption Class" Link="/Content/apex_pages_selectoption.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="StandardController Class" Link="/Content/apex_pages_standardcontroller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="StandardSetController Class" Link="/Content/apex_pages_standardsetcontroller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="XML Classes" Link="/Content/apex_classes_xml.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="XmlStream Classes" Link="/Content/apex_classes_xml_XmlStream.htm" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="XmlStreamReader Class" Link="/Content/apex_classes_xml_XmlStream_reader.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="XmlStreamWriter Class" Link="/Content/apex_classes_xml_XmlStream_writer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="DOM Classes" Link="/Content/apex_classes_xml_dom.htm" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="Document Class" Link="/Content/apex_classes_xml_dom_document.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="XmlNode Class" Link="/Content/apex_classes_xml_dom_xmlnode.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Apex Interfaces" Link="/Content/apex_interfaces.htm" ComputedFirstTopic="false" DescendantCount="15">
+            <TocEntry Title="Auth.RegistrationHandler Interface" Link="/Content/apex_auth_plugin.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Comparable Interface" Link="/Content/apex_comparable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="HttpCalloutMock Interface" Link="/Content/apex_interface_httpcalloutmock.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="InstallHandler Interface" Link="/Content/apex_install_handler.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Support.EmailTemplateSelector Interface" Link="/Content/apex_email_template_selector.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Site.UrlRewriter Interface" Link="/Content/apex_site_urlRewriter.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title=" Using the Process.Plugin Interface" Link="/Content/apex_process_plugin_using.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="Process.Plugin Interface" Link="/Content/apex_process_plugin.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Process.PluginRequest Class" Link="/Content/apex_plugin_request.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Process.PluginResult Class" Link="/Content/apex_plugin_result.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Process.PluginDescribeResult Class" Link="/Content/apex_plugin_describe_result.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Process.Plugin Data Type Conversions" Link="/Content/apex_plugin_datatype_conversions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Sample Process.Plugin Implementation for&#xA;Lead Conversion" Link="/Content/apex_process_plugin_example_lead_convert.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="UninstallHandler Interface" Link="/Content/apex_uninstall_handler.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="WebServiceMock Interface" Link="/Content/apex_interface_webservicemock.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Deploying Apex" Link="/Content/apex_deploying.htm" ComputedFirstTopic="false" DescendantCount="7">
+        <TocEntry Title="Using Change Sets To Deploy Apex" Link="/Content/apex_deploying_changesets.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using the Force.com IDE to Deploy Apex" Link="/Content/apex_deploying_ide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using the Force.com Migration Tool" Link="/Content/apex_deploying_ant.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Understanding deploy" Link="/Content/apex_deploying_ant_deploy.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding retrieveCode" Link="/Content/apex_deploying_ant_retrieveCode.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Understanding runTests()" Link="/Content/apex_deploying_ant_runTests.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Using SOAP API to&#xA;Deploy Apex" Link="/Content/apex_deploying_additional.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Appendices" ComputedFirstTopic="false" DescendantCount="33">
+        <TocEntry Title="Shipping Invoice Example" Link="/Content/apex_shopping_cart_example.htm" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Shipping Invoice Example Walk-Through" Link="/Content/apex_shopping_cart_example_walkthru.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Shipping Invoice Example Code" Link="/Content/apex_shopping_cart_example_code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Reserved Keywords" Link="/Content/apex_reserved_words.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Security Tips for Apex and Visualforce Development" Link="/Content/pages_security_tips_intro.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Cross Site Scripting (XSS)" Link="/Content/pages_security_tips_xss.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Unescaped Output and Formulas in Visualforce Pages" Link="/Content/pages_security_tips_scontrols.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Cross-Site Request Forgery (CSRF)" Link="/Content/pages_security_tips_csrf.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="SOQL Injection" Link="/Content/pages_security_tips_soql_injection.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Data Access Control" Link="/Content/pages_security_tips_data_access_control.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="SOAP API and&#xA;SOAP Headers for Apex" Link="/Content/apex_api.htm" ComputedFirstTopic="false" DescendantCount="22">
+            <TocEntry Title="ApexTestQueueItem" Link="/Content/sforce_api_objects_apextestqueueitem.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="ApexTestResult" Link="/Content/sforce_api_objects_apextestresult.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="compileAndTest()" Link="/Content/sforce_api_calls_compileandtest.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="CompileAndTestRequest" Link="/Content/sforce_api_calls_compileandtest_request.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="CompileAndTestResult" Link="/Content/sforce_api_calls_compileandtest_result.htm" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="CompileClassResult" Link="/Content/sforce_api_calls_compileandtest_result.htm#sforce_api_calls_compile_class_result" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="CompileTriggerResult" Link="/Content/sforce_api_calls_compileandtest_result.htm#compile_trigger_result" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="DeleteApexResult" Link="/Content/sforce_api_calls_compileandtest_result.htm#delete_apex_result" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="compileClasses()" Link="/Content/sforce_api_calls_compileclasses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="compileTriggers()" Link="/Content/sforce_api_calls_compiletriggers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="executeanonymous()" Link="/Content/sforce_api_calls_executeanonymous.htm" ComputedFirstTopic="false" DescendantCount="1">
+                <TocEntry Title="ExecuteAnonymousResult" Link="/Content/sforce_api_calls_executeanonymous_result.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="runTests()" Link="/Content/sforce_api_calls_runtests.htm" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="RunTestsRequest" Link="/Content/sforce_api_calls_runtests_request.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="RunTestsResult" Link="/Content/sforce_api_calls_runtests_result.htm" ComputedFirstTopic="false" DescendantCount="5">
+                    <TocEntry Title="CodeCoverageResult" Link="/Content/sforce_api_calls_runtests_result.htm#code_coverage_result" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="CodeCoverageWarning" Link="/Content/sforce_api_calls_runtests_result.htm#code_coverage_warning" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="RunTestFailure" Link="/Content/sforce_api_calls_runtests_result.htm#run_test_failure" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="RunTestSuccess" Link="/Content/sforce_api_calls_runtests_result.htm#run_test_success" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="CodeLocation" Link="/Content/sforce_api_calls_runtests_result.htm#code_location" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="DebuggingHeader" Link="/Content/sforce_api_header_debuggingheader.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="PackageVersionHeader" Link="/Content/apex_api_packageversionheader.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Glossary" Link="/Content/glossary_apex.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultTOC>

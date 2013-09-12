@@ -10,15 +10,14 @@ object ApplicationBuild extends Build {
     organization := "com.ryanbrainard",
     scalaVersion := "2.9.1",
     libraryDependencies ++= Seq(
-      "org.rogach" %% "scallop" % "0.9.1"
+      "org.rogach" %% "scallop" % "0.9.1",
+      "org.xerial" % "sqlite-jdbc" % "3.7.2",
+      "org.scalatest" %% "scalatest" % "2.0.M6-SNAP22" % "test"
     )
   )
-
-  val scalaqlite = RootProject(uri("git://github.com/srhea/scalaqlite.git"))
 
   lazy val root = Project(id = appName,
                           base = file("."),
                           settings = Project.defaultSettings ++ buildSettings
-                         ).dependsOn(scalaqlite)
-
+                         )
 }
