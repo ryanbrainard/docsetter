@@ -1,6 +1,6 @@
 package com.ryanbrainard.docsetter
 
-import java.io.{PrintWriter, File}
+import java.io.{FileOutputStream, OutputStreamWriter, PrintWriter, File}
 import org.rogach.scallop.ScallopConf
 import java.util.ServiceLoader
 import java.net.URL
@@ -38,7 +38,7 @@ object CLI {
   }
 
   def generate(config: Config) = generators.find(_.name.equalsIgnoreCase(config.name())).map { generator =>
-    val baseDir = new File(config.output(), config.name() + ".docset")
+    val baseDir = new File(config.output(), generator.id + ".docset")
     val contentsDir = new File(baseDir, "/Contents")
     val resourcesDir = new File(contentsDir, "/Resources")
     resourcesDir.mkdirs()
@@ -51,10 +51,20 @@ object CLI {
       "{{dashIndexFilePath}}"    -> generator.indexFilePath
     )
     val infoPlistReplacer = (line: String) => infoPListReplacements.foldLeft(line)((l,r) => l.replaceAll(Pattern.quote(r._1), r._2))
-    val infoPlist = new File(contentsDir, "Info.plist")
-    val infoPlistWriter = new PrintWriter(infoPlist)
+    val infoPlistFile = new File(contentsDir, "Info.plist")
+    val infoPlistWriter = new PrintWriter(infoPlistFile)
     Source.fromURL(infoPlistTemplate).getLines().map(infoPlistReplacer).foreach(infoPlistWriter.println)
     infoPlistWriter.close()
+
+    Option(generator.iconUrl).map { iconFileIn =>
+      val iconFileOut = new File(baseDir, "icon.png")
+      val iconFileInputStream = iconFileIn.openStream()
+      val iconFileOutputStream = new FileOutputStream(iconFileOut)
+      var buffer = -1
+      while (-1 != {buffer = iconFileInputStream.read; buffer}) {
+        iconFileOutputStream.write(buffer)
+      }
+    }
 
     Class.forName("org.sqlite.JDBC")
     val dbFile = new File(resourcesDir, "/docSet.dsidx")

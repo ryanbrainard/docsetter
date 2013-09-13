@@ -1,10 +1,13 @@
 package com.ryanbrainard.docsetter
 
+import java.net.URL
+
 trait Generator {
   def id: String
   def name: String
   def indexFilePath: String
   def searchKey: String
+  def iconUrl: URL
   def index: Seq[IndexEntry]
 }
 

@@ -21,6 +21,8 @@ abstract class AbstractSfdcGenerator extends Generator {
 
   def indexFilePath = new URL(url, "Content/Template/Splash.htm").toExternalForm
 
+  def iconUrl = getClass.getClassLoader.getResource(id + ".png")
+
   def defaultEntryType = EntryType.Guide
 
   def index = {
