@@ -7,6 +7,7 @@ import java.net.URL
 import scala.io.Source
 import java.util.regex.Pattern
 import java.sql.DriverManager
+import scala.sys.process.Process
 
 object CLI {
 
@@ -82,6 +83,8 @@ object CLI {
     inserts.executeBatch()
     inserts.close()
     db.close()
+
+    Process("tar --exclude='.DS_Store' -czf " + generator.id + ".tgz " + generator.id + ".docset", config.output()).run()
 
     Right("Generated " + generator.name + " docset at " + baseDir)
   }.getOrElse {
