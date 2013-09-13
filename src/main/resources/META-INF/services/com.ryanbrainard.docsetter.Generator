@@ -1,1 +1,2 @@
-com.ryanbrainard.docsetter.sfdc.SfdcGenerator
+com.ryanbrainard.docsetter.sfdc.ApexGenerator
+com.ryanbrainard.docsetter.sfdc.VisualforceGenerator

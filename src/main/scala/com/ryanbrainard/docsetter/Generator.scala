@@ -1,12 +1,11 @@
 package com.ryanbrainard.docsetter
 
-import java.net.URL
-
 trait Generator {
+  def id: String
   def name: String
-  def detect(url: URL): Boolean
-  def indexPagePath(url: URL): String
-  def index(url: URL): Seq[IndexEntry]
+  def indexFilePath: String
+  def searchKey: String
+  def index: Seq[IndexEntry]
 }
 
 case class IndexEntry(name: String, entryType: EntryType, path: String)

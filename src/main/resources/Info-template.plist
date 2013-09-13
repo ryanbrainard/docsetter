@@ -3,14 +3,18 @@
 <plist version="1.0">
     <dict>
         <key>CFBundleIdentifier</key>
-        <string>{{NAME}}</string>
+        <string>{{CFBundleIdentifier}}</string>
+
         <key>CFBundleName</key>
-        <string>{{NAME}}</string>
+        <string>{{CFBundleName}}</string>
+
         <key>DocSetPlatformFamily</key>
-        <string>{{NAME}}</string>
+        <string>{{DocSetPlatformFamily}}</string>
+
         <key>isDashDocset</key>
         <true/>
+
         <key>dashIndexFilePath</key>
-        <string>{{INDEX_PAGE_PATH}}</string>
+        <string>{{dashIndexFilePath}}</string>
     </dict>
 </plist>

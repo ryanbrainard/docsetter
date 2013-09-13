@@ -1,23 +1,31 @@
 package com.ryanbrainard.docsetter.sfdc
 
 import com.ryanbrainard.docsetter.{EntryType, IndexEntry, Generator}
-import java.io.File
-import java.net.URL
 import xml._
 import scala.collection.immutable.ListMap
+import java.net.URL
 
-class SfdcGenerator extends Generator {
-  val name = "Salesforce"
+abstract class AbstractSfdcGenerator extends Generator {
 
-  def detect(url: URL) = {
-    url.toExternalForm.matches("https?://www.salesforce.com/us/developer/docs/\\w+$")
-  }
+  def sfdcId: String
 
-  def indexPagePath(url: URL) = url + "/Content/Template/Splash.htm"
+  def id = "sfdc_" + sfdcId
 
-  def index(url: URL) = {
+  def name: String
+
+  def searchKey = name
+
+  def url: URL = new URL("http://www.salesforce.com/us/developer/docs/" + sfdcId + "/")
+
+  def tocUrl = new URL(url, "Data/Toc.xml")
+
+  def indexFilePath = new URL(url, "Content/Template/Splash.htm").toExternalForm
+
+  def defaultEntryType = EntryType.Guide
+
+  def index = {
     for {
-      entry     <- XML.load(tocUrl(url)) \\ "TocEntry"
+      entry     <- XML.load(tocUrl) \\ "TocEntry"
       titleNode <- entry.attribute("Title")
       linkNode  <- entry.attribute("Link")
       decsNode  <- entry.attribute("DescendantCount")
@@ -34,7 +42,10 @@ class SfdcGenerator extends Generator {
     if (decs > 0) {
       EntryType.Section
     } else {
-      entryTypeRegexMappings.find(r => title.matches(r._1)).map(_._2).getOrElse(defaultEntryType)
+      entryTypeRegexMappings
+        .find(r => title.matches(r._1))
+        .map(_._2)
+        .getOrElse(defaultEntryType)
     }
   }
 
@@ -46,10 +57,4 @@ class SfdcGenerator extends Generator {
     ".* Enums"     -> EntryType.Enum,
     ".*Sample.*"   -> EntryType.Sample
   )
-
-  val defaultEntryType = EntryType.Guide
-
-  def tocUrl(url: URL) = {
-    url + "/Data/Toc.xml"
-  }
 }
