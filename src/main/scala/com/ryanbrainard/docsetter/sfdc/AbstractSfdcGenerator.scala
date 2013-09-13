@@ -51,8 +51,7 @@ abstract class AbstractSfdcGenerator extends Generator {
     }
   }
 
-  val entryTypeRegexMappings: Map[String, EntryType] = ListMap (
-    """\w+:\w+"""  -> EntryType.Element,
+  def entryTypeRegexMappings: Map[String, EntryType] = ListMap (
     ".* Methods"   -> EntryType.Class,
     ".* Class"     -> EntryType.Class,
     ".* Interface" -> EntryType.Interface,
