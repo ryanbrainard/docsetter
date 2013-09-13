@@ -12,8 +12,9 @@ Generate a docset:
 
 Docsets
 --------
-These are docsets generated with Docsetter. Make sure [Dash](http://kapeli.com/dash) is installed before downloading docsets.
-All copyrights and trademarks are reserved by their respective owners.
+These are docsets generated with Docsetter. Make sure [Dash](http://kapeli.com/dash) is installed and then run the `open` command below:
 
- - Apex: dash-feed://https%3A%2F%2Fs3.amazonaws.com%2Fsfdc-docsets%2FApex.xml"
- - Visualforce: dash-feed://https%3A%2F%2Fs3.amazonaws.com%2Fsfdc-docsets%2FVisualforce.xml
+ - Apex: `$ open dash-feed://https%3A%2F%2Fs3.amazonaws.com%2Fsfdc-docsets%2FApex.xml`
+ - Visualforce: `$ open dash-feed://https%3A%2F%2Fs3.amazonaws.com%2Fsfdc-docsets%2FVisualforce.xml`
+ 
+All copyrights and trademarks are reserved by their respective owners.
