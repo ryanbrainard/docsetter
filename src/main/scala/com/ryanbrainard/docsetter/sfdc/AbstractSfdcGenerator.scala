@@ -9,7 +9,7 @@ abstract class AbstractSfdcGenerator extends Generator {
 
   def sfdcId: String
 
-  def id = "sfdc_" + sfdcId
+  def id = "sfdc-" + sfdcId
 
   def name: String
 
