@@ -26,6 +26,7 @@ object CLI {
     version("Docsetter 1.0")
     val name = opt[String](required = true)
     val output = opt[File](descr = "Docset output parent directory", default = Some(new File("target/generated")))
+    val verbose = toggle()
     errorMessageHandler = { message: String =>
       printError(message + "\n")
       builder.printHelp()
@@ -75,6 +76,7 @@ object CLI {
     db.createStatement().execute("CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);")
     val inserts = db.prepareStatement("INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES (?,?,?);")
     generator.index.map { e =>
+      if (config.verbose()) println(e)
       inserts.setString(1, e.name)
       inserts.setString(2, e.entryType.toString)
       inserts.setString(3, e.path)
