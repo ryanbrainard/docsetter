@@ -1,6 +1,7 @@
 package com.ryanbrainard.docsetter
 
 import java.net.URL
+import java.io.File
 
 trait Generator {
   def id: String
@@ -8,7 +9,7 @@ trait Generator {
   def indexFilePath: String
   def searchKey: String
   def iconUrl: URL
-  def index: Seq[IndexEntry]
+  def index(docsDir: File): Iterable[IndexEntry]
 }
 
 case class IndexEntry(name: String, entryType: EntryType, path: String)

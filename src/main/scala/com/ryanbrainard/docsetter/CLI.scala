@@ -40,10 +40,14 @@ object CLI {
   }
 
   def generate(config: Config) = generators.find(_.name.equalsIgnoreCase(config.name())).map { generator =>
+    if (config.verbose()) println("STARTING: " + generator.name)
+
     val baseDir = new File(config.output(), generator.id + ".docset")
     val contentsDir = new File(baseDir, "/Contents")
     val resourcesDir = new File(contentsDir, "/Resources")
-    resourcesDir.mkdirs()
+    val docsDir = new File(resourcesDir, "/Documents")
+    docsDir.mkdirs()
+    if (config.verbose()) println("CREATED DIRS: " + baseDir)
 
     val infoPlistTemplate = getClass.getClassLoader.getResource("Info-template.plist")
     val infoPListReplacements = Map(
@@ -57,6 +61,7 @@ object CLI {
     val infoPlistWriter = new PrintWriter(infoPlistFile)
     Source.fromURL(infoPlistTemplate).getLines().map(infoPlistReplacer).foreach(infoPlistWriter.println)
     infoPlistWriter.close()
+    if (config.verbose()) println("CREATED INFOPLIST: " + infoPlistFile)
 
     Option(generator.iconUrl).map { iconFileIn =>
       val iconFileOut = new File(baseDir, "icon.png")
@@ -66,17 +71,19 @@ object CLI {
       while (-1 != {buffer = iconFileInputStream.read; buffer}) {
         iconFileOutputStream.write(buffer)
       }
+      if (config.verbose()) println("CREATED ICON: " + iconFileOut)
     }
 
     Class.forName("org.sqlite.JDBC")
     val dbFile = new File(resourcesDir, "/docSet.dsidx")
     val db = DriverManager.getConnection("jdbc:sqlite:" + dbFile)
+    if (config.verbose()) println("CREATED DB: " + dbFile)
     db.setAutoCommit(true)
     db.createStatement().execute("CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);")
     db.createStatement().execute("CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);")
     val inserts = db.prepareStatement("INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES (?,?,?);")
-    generator.index.map { e =>
-      if (config.verbose()) println(e)
+    generator.index(docsDir).map { e =>
+      if (config.verbose()) println("INDEXING: " + e)
       inserts.setString(1, e.name)
       inserts.setString(2, e.entryType.toString)
       inserts.setString(3, e.path)

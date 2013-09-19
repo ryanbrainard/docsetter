@@ -4,6 +4,7 @@ import com.ryanbrainard.docsetter.{EntryType, IndexEntry, Generator}
 import xml._
 import scala.collection.immutable.ListMap
 import java.net.URL
+import java.io.File
 
 abstract class AbstractSfdcGenerator extends Generator {
 
@@ -25,7 +26,7 @@ abstract class AbstractSfdcGenerator extends Generator {
 
   def defaultEntryType = EntryType.Guide
 
-  def index = {
+  def index(docsDir: File) = {
     for {
       entry     <- XML.load(tocUrl) \\ "TocEntry"
       titleNode <- entry.attribute("Title")
