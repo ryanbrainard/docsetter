@@ -82,7 +82,7 @@ object CLI {
     db.createStatement().execute("CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);")
     db.createStatement().execute("CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);")
     val inserts = db.prepareStatement("INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES (?,?,?);")
-    generator.index(docsDir).map { e =>
+    generator.index(docsDir).foreach { e =>
       if (config.verbose()) println("INDEXING: " + e)
       inserts.setString(1, e.name)
       inserts.setString(2, e.entryType.toString)

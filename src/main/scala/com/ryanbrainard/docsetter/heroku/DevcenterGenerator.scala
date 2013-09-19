@@ -22,7 +22,7 @@ class DevcenterGenerator extends Generator {
 
   def index(docsDir: File) = loadJson(url("/api/v1/articles.json", secure = true)).collect {
     case articles: JSONArray =>
-      articles.list.collect {
+      articles.list.par.collect {
         case article: JSONObject =>
           val apiUrl = new URL(article.obj("api_url").toString)
           loadJson(apiUrl).collect {
@@ -35,9 +35,10 @@ class DevcenterGenerator extends Generator {
               val writer = new PrintWriter(file)
               writer.print(htmlContent)
               writer.close()
+              println("wrote:" + Thread.currentThread() + file)
               IndexEntry(title.toString, EntryType.Guide, path.toString)
           }.getOrElse(sys.error("Could not load article from " + apiUrl))
-      }
+      }.seq
   }.getOrElse(sys.error("Could not build Heroku Devcenter index"))
 
   private def loadJson(url: URL) = {
