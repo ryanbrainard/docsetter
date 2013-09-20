@@ -49,7 +49,7 @@ object CLI {
     docsDir.mkdirs()
     if (config.verbose()) println("CREATED DIRS: " + baseDir)
 
-    val infoPlistTemplate = getClass.getClassLoader.getResource("Info-template.plist")
+    val infoPlistTemplate = getClass.getClassLoader.getResource("Info.plist.template")
     val infoPListReplacements = Map(
       "{{CFBundleIdentifier}}"   -> generator.id,
       "{{CFBundleName}}"         -> generator.name,
