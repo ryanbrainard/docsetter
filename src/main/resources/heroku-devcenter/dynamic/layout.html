@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{TITLE}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="authenticity_token" name="csrf-param">
+    <link href="../assets/public.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../assets/public.css" media="screen" rel="stylesheet" type="text/css">
+    <!--[if IE 6]>
+    <link href="https://universal-ie6-css.googlecode.com/files/ie6.0.3.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]--><style>
+    .heroku-header-container {
+        max-width: 524px !important;
+    }
+    .cli-preview-error, .cli-preview-error h4 {
+        color: red;
+        line-height: 1.8em;
+    }
+    .cli-save {
+        margin: 2em 0;
+    }
+    .cli-save textarea {
+        display:none;
+    }
+    .cli-save input {
+        padding: 1em 2em;
+    }
+    .preview {
+        font-family: Helvetica, Arial;
+        padding: .4em;
+        font-size: 18px;
+        color: #74d0f4;
+    }
+    .main {
+        float: none !important;
+    }
+</style>
+</head>
+<body>
+<div id="sheet">
+    <div class="sheet-container container">
+        <section class="main">
+            <article class="article autolink ">
+                <header>
+                    <h1 class="doc">{{TITLE}}</h1>
+                    <p class="meta">{{META}}</p>
+                </header>
+                <div class="padder">
+                    {{BODY}}
+                </div>
+            </article>
+        </section>
+    </div>
+</div>
+</body>
+</html>
