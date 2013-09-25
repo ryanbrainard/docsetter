@@ -21,6 +21,7 @@ object EntryType {
   case object Category extends EntryType
   case object Class extends EntryType
   case object Command extends EntryType
+  case object Component extends EntryType
   case object Constant extends EntryType
   case object Constructor extends EntryType
   case object Define extends EntryType
