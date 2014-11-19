@@ -6,5 +6,5 @@ Check out the [sample docsets](http://ryanbrainard.github.io/docsetter/#docsets)
 Builds
 ------
 
-  $ sbt clean
-  $ sbt "run --name <NAME> --verbose"
+    $ sbt clean
+    $ sbt "run --name <NAME> --verbose"
