@@ -5,7 +5,7 @@ import scala.collection.immutable.ListMap
 
 class ApiGenerator extends AbstractSfdcGenerator {
   override val sfdcId = "api"
-  override val name   = "SFApi"
+  override val name   = "sfdc-api"
   override val entryTypeRegexMappings = ListMap(
     "Step 1: Obtain a Salesforce Developer Edition Organization"  -> defaultEntryType,
     "Primitive Data Types"  -> defaultEntryType,
