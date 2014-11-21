@@ -3,7 +3,7 @@ package com.ryanbrainard.docsetter.sfdc
 import com.ryanbrainard.docsetter.EntryType
 import scala.collection.immutable.ListMap
 
-class ApexGenerator extends AbstractSfdcGenerator {
+class ApiGenerator extends AbstractSfdcGenerator {
   override val sfdcId = "api"
   override val name   = "SFApi"
   override val entryTypeRegexMappings = ListMap(

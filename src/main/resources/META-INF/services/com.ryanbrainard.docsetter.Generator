@@ -1,3 +1,4 @@
+com.ryanbrainard.docsetter.sfdc.ApiGenerator
 com.ryanbrainard.docsetter.sfdc.ApexGenerator
 com.ryanbrainard.docsetter.sfdc.VisualforceGenerator
 com.ryanbrainard.docsetter.heroku.DevcenterGenerator
